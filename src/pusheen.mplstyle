@@ -1,0 +1,67 @@
+## ***************************************************************************
+## * FONT                                                                    *
+## ***************************************************************************
+font.family:    Sniglet
+font.fantasy:   Creativo Italic
+font.size:      16
+
+## ***************************************************************************
+## * AXES                                                                    *
+## ***************************************************************************
+axes.facecolor:    f3eeec    # axes background color
+axes.edgecolor:    563a30   # axes edge color
+axes.linewidth:    1.5
+axes.grid:         True
+grid.color:        563a30
+grid.linestyle:    :        # dotted style
+grid.linewidth:    0.5
+grid.alpha:        0.3
+axes.labelcolor:   563a30
+axes.titlecolor:   563a30
+axes.titlesize:    large
+axes.titlepad:     15
+
+axes.prop_cycle: cycler('color',['dc939e','967966', '75cbb9', 'e6b07d','97bbe6','9676c1'])
+
+## ***************************************************************************
+## * TICKS                                                                   *
+## ***************************************************************************
+# Tick properties
+# x-axis
+xtick.top: True
+xtick.direction: in
+
+# y-axis
+ytick.right: True
+ytick.direction: in
+
+# x-axis
+xtick.major.size: 5
+xtick.major.width: 2
+xtick.minor.size: 5
+xtick.minor.width: 1.5
+
+# y-axis
+ytick.major.size: 5
+ytick.major.width: 2
+ytick.minor.size: 5
+ytick.minor.width: 1.5
+
+xtick.labelcolor:  563a30
+xtick.color:       563a30
+
+ytick.labelcolor:  563a30
+ytick.color:       563a30
+
+## ***************************************************************************
+## * LEGEND                                                                  *
+## ***************************************************************************
+legend.fontsize:    14
+legend.labelcolor:  563a30   # this option needs matplotlib 3.7 version
+
+## ***************************************************************************
+## * FIGURE                                                                  *
+## ***************************************************************************
+figure.figsize:     7, 5.5
+figure.facecolor:   f3eeec     # figure face color
+figure.edgecolor:   f3eeec     # figure edge color
