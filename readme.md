@@ -14,7 +14,7 @@ This theme was created inspirated by Pusheen the cat to use in matplotlib.
 		& [Creativo](https://www.dafont.com/es/creativo.font)
 - Install fonts: Unzip and save in your `.fonts` directory. If you have problems you can visit [this site](https://scentellegher.github.io/visualization/2018/05/02/custom-fonts-matplotlib.html)
 
-### Use style from GitHub:  
+### Use style from GitHub::globe-with-meridians:  
 You can import the theme with:
 ```python
 plt.style.use('https://github.com/Jessi-MM/Matplotlib_Pusheen_Theme/raw/main/src/pusheen.mplstyle')
@@ -50,7 +50,7 @@ print(mpl.get_configdir())
 `plt.style.use('pusheen')`  
 You can find examples of codes [here](./src/codes)
 
-## Palette of colours  
+## Palette of colours :rainbow:  
 ![palette](./img/palette.png)
 
 ## Examples  
