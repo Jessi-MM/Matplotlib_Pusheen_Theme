@@ -17,7 +17,7 @@ This theme was created inspirated by Pusheen the cat to use in matplotlib.
 ### Use style from GitHub:  
 You can import the theme with:
 ```python
-plt.style.use('https://github.com/Jessi-MM/Matplotlib_Pusheen_Theme/blob/main/src/pusheen.mplstyle')
+plt.style.use('https://github.com/Jessi-MM/Matplotlib_Pusheen_Theme/raw/main/src/pusheen.mplstyle')
 ```
 This is an example of complete code:
 
@@ -26,7 +26,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.special import jv
 
-plt.style.use('https://github.com/Jessi-MM/Matplotlib_Pusheen_Theme/blob/main/src/pusheen.mplstyle')
+plt.style.use('https://github.com/Jessi-MM/Matplotlib_Pusheen_Theme/raw/main/src/pusheen.mplstyle')
 
 fig, ax = plt.subplots()
 x = np.linspace(-10, 10, 100)
